@@ -1,0 +1,17 @@
+:root {
+  font-family: Arial, sans-serif;
+  color: #f5f5f5;
+  background: #141416;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  --surface: #202024;
+  --border: #38383d;
+  --text-muted: #a4a3ad;
+  --gold: #b99b2d;
+}
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; }
+button, input { font: inherit; }
+button { cursor: pointer; }
+button:focus-visible, input:focus-visible { outline: 2px solid #e8c647; outline-offset: 3px; }
+button:disabled { cursor: not-allowed; }
